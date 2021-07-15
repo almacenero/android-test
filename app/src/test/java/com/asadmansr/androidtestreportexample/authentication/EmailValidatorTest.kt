@@ -8,9 +8,11 @@ class EmailValidatorTest {
 
     private val emailValidator = EmailValidator()
 
-    @Test
+    @Tes
     fun emailValidator_CorrectEmailSimple_ReturnsTrue() {
-        Assert.assertTrue(emailValidator.isEmailValid("Name@email.com"))
+
+        Assert.assertFalse(emailValidator.isEmailValid("name@email.com"))
+
     }
 
     @Test
