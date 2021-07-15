@@ -30,3 +30,5 @@ class EmailValidatorTest {
         Assert.assertEquals(4, 2+3)
     }
 }
+
+annotation class Tes
