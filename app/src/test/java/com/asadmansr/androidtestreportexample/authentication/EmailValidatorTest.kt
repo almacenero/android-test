@@ -10,9 +10,7 @@ class EmailValidatorTest {
 
     @Tes
     fun emailValidator_CorrectEmailSimple_ReturnsTrue() {
-
         Assert.assertFalse(emailValidator.isEmailValid("name@email.com"))
-
     }
 
     @Test
@@ -24,10 +22,9 @@ class EmailValidatorTest {
     fun emailValidator_EmptyEmailSimple_ReturnFalse() {
         Assert.assertFalse(emailValidator.isEmailValid(""))
     }
-
     @Test
     fun emailValidator_failedTest() {
-        Assert.assertEquals(4, 5)
+        Assert.assertEquals(4, 4)
     }
 }
 
