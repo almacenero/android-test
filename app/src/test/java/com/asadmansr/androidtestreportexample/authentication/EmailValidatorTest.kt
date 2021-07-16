@@ -24,7 +24,7 @@ class EmailValidatorTest {
     }
     @Test
     fun emailValidator_failedTest() {
-        Assert.assertEquals(4, 4)
+        Assert.assertEquals(4, 10)
     }
 }
 
